@@ -1,0 +1,76 @@
+/* CSS */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+.color-1 {
+  color: #f8f6f1;
+}
+.color-2 {
+  color: #e1eae5;
+}
+.color-3 {
+  color: #a7d7b8;
+}
+.color-4 {
+  color: #66b2a0;
+}
+.color-5 {
+  color: #4e796b;
+}
+
+/* CSS Variables */
+:root {
+  --color-1: #f8f6f1;
+  --color-2: #e1eae5;
+  --color-3: #a7d7b8;
+  --color-4: #66b2a0;
+  --color-5: #4e796b;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Work Sans", sans-serif;
+}
+
+body{
+    background-color: var(--color-1);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-3);
+    padding: 20px;
+    text-align: center;
+    padding:2em;
+    border-bottom: 2px solid var(--color-4);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    color: var(--color-5);
+     font-size: 1.6em;
+}
+
+.logo img{
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    border-radius: 100%;
+    border:1px solid var(--color-5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+    
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    gap:20px;    
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
